@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MinHook">
+      <UniqueIdentifier>{efbb1671-b76d-494a-95e8-9bab73d28d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Imgui">
+      <UniqueIdentifier>{7dd4e481-4805-41a7-b49b-47951da23ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewMenu">
+      <UniqueIdentifier>{dd599ea9-9fc4-45b9-8e2a-9311ef3c5a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewMenu\d3d11hook">
+      <UniqueIdentifier>{95ae29da-85bd-4431-9d4f-6f9024656546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewMenu\Menu">
+      <UniqueIdentifier>{63b00ea4-7d4f-4218-ad09-755431291ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewMenu\InputHook">
+      <UniqueIdentifier>{d61bc155-68a8-47cd-97d5-4db31b00310f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHookSrc\buffer.h">
+      <Filter>Header Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHookSrc\hde\hde32.h">
+      <Filter>Header Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHookSrc\hde\hde64.h">
+      <Filter>Header Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHookSrc\hde\pstdint.h">
+      <Filter>Header Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHookSrc\hde\table32.h">
+      <Filter>Header Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHookSrc\hde\table64.h">
+      <Filter>Header Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHookSrc\trampoline.h">
+      <Filter>Header Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vthook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Toggles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLCUnlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlowmoHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d11hook.h">
+      <Filter>Source Files\NewMenu\d3d11hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\NewMenu\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHook.h">
+      <Filter>Source Files\NewMenu\InputHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx11.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\stb_rect_pack.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\stb_textedit.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\stb_truetype.h">
+      <Filter>Header Files\Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostsAzza.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHookSrc\buffer.c">
+      <Filter>Header Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHookSrc\hde\hde32.c">
+      <Filter>Header Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHookSrc\hde\hde64.c">
+      <Filter>Header Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHookSrc\hook.c">
+      <Filter>Header Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHookSrc\trampoline.c">
+      <Filter>Header Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Toggles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLCUnlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlowmoHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d11hook.cpp">
+      <Filter>Source Files\NewMenu\d3d11hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\NewMenu\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHook.cpp">
+      <Filter>Source Files\NewMenu\InputHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Header Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>Header Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Header Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx11.cpp">
+      <Filter>Header Files\Imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

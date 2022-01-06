@@ -1,0 +1,20 @@
+﻿  Menu.cpp
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\stdafx.h(20,10): warning C4067:  unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\D3DHook.h(1,9): warning C4068:  unknown pragma
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Engine.h(414,1): warning C4927:  illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Engine.h(414,1): message :  while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Structs.h(13): message :  see declaration of 'Vec3::Vec3'
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Menu.cpp(391,48): warning C4244:  'argument': conversion from '__int64' to 'T', possible loss of data
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Menu.cpp(391,48): warning C4244:         with
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Menu.cpp(391,48): warning C4244:         [
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Menu.cpp(391,48): warning C4244:             T=byte
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Menu.cpp(391,48): warning C4244:         ]
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Menu.cpp(404,17): warning C4244:  'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Menu.cpp(431,64): warning C4267:  'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Mariu\source\repos\GhostsAzza\GhostsAzza\Menu.cpp(547,39): warning C4312:  'type cast': conversion from 'int' to 'void *' of greater size
+  Generating code
+  2 of 1257 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    17 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GhostsAzza.vcxproj -> C:\Users\Mariu\source\repos\GhostsAzza\x64\Release\GhostTools.dll

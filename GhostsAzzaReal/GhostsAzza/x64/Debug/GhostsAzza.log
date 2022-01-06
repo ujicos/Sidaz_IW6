@@ -1,0 +1,164 @@
+﻿  d3d11hook.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\d3d11hook.cpp(240,90): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': cannot convert argument 2 from 'const char [39]' to 'LPCWSTR'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\d3d11hook.cpp(240,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9153,1): message : see declaration of 'MessageBoxW'
+  D3DHook.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  DLCUnlock.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  dllmain.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\dllmain.cpp(18,18): error C2664: 'HINTERNET InternetOpenW(LPCWSTR,DWORD,LPCWSTR,LPCWSTR,DWORD)': cannot convert argument 1 from 'const char [13]' to 'LPCWSTR'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\dllmain.cpp(18,31): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\wininet.h(868,25): message : see declaration of 'InternetOpenW'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\dllmain.cpp(24,19): error C2664: 'HINTERNET InternetOpenUrlW(HINTERNET,LPCWSTR,LPCWSTR,DWORD,DWORD,DWORD_PTR)': cannot convert argument 2 from 'const char [28]' to 'LPCWSTR'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\dllmain.cpp(25,3): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\wininet.h(947,25): message : see declaration of 'InternetOpenUrlW'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\dllmain.cpp(48,57): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'const LPCSTR' to 'LPCWSTR'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\dllmain.cpp(48,43): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(10049,1): message : see declaration of 'FindWindowW'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\dllmain.cpp(48,58): error C2660: 'ImplHookDX11_Init': function does not take 1 arguments
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\d3d11hook.h(30,28): message : see declaration of 'ImplHookDX11_Init'
+  Engine.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  GameMenu.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  GhostsAzza.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  Hooks.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(179,28): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'const float *'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'int *'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): warning C4313: 'printf': '%x' in format string conflicts with argument 2 of type 'int *'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 3 has type 'int *'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): warning C4313: 'printf': '%x' in format string conflicts with argument 3 of type 'int *'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 8 has type 'int *'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 10 has type 'Weapon'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): message : placeholders and their parameters expect 12 variadic arguments, but 11 were provided
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(435,9): message : the missing variadic argument 12 is required by format string '%i'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(738,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'playerState_s *'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(738,9): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'playerState_s *'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(876,9): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(876,9): message : consider using '%lli' in the format string
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(876,9): message : consider using '%Ii' in the format string
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(876,9): message : consider using '%I64i' in the format string
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(884,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 2 has type 'int'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(884,9): warning C4313: 'printf': '%p' in format string conflicts with argument 2 of type 'int'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(893,9): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(893,9): message : consider using '%lli' in the format string
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(893,9): message : consider using '%Ii' in the format string
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(893,9): message : consider using '%I64i' in the format string
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Hooks.cpp(929,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  imgui.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Imgui\imgui.cpp(4785,4): error C2039: 'Titl': is not a member of 'ImGuiWindow'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Imgui\imgui_internal.h(763): message : see declaration of 'ImGuiWindow'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Imgui\imgui.cpp(4785,4): error C2146: syntax error: missing ';' before identifier 'arRect'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Imgui\imgui.cpp(4785,4): error C3861: 'arRect': identifier not found
+  imgui_demo.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  imgui_draw.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  imgui_impl_dx11.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  InputHook.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  Menu.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Menu.cpp(391,48): warning C4244: 'argument': conversion from '__int64' to 'T', possible loss of data
+          with
+          [
+              T=byte
+          ]
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Menu.cpp(404,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Menu.cpp(431,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Menu.cpp(547,39): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+  SlowmoHandler.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  stdafx.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  Toggles.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  Utils.cpp
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\stdafx.h(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\D3DHook.h(1,9): warning C4068: unknown pragma
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(414,1): message : while calling the constructor 'Vec3::Vec3(float [])'
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Structs.h(13): message : see declaration of 'Vec3::Vec3'
+  Generating Code...
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Menu.cpp(178): error C4716: 'BotNameChangeCallback': must return a value
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(396): warning C4172: returning address of local variable or temporary: angles
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(406): warning C4172: returning address of local variable or temporary: bullet
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(396): warning C4172: returning address of local variable or temporary: angles
+C:\Users\Mariu\Documents\GitHub\SidazSources\GhostsAzzaReal\GhostsAzza\Engine.h(406): warning C4172: returning address of local variable or temporary: bullet
